@@ -30,3 +30,4 @@ steps:
     storage: 'cloudawesomexyz'
     ContainerName: '$web'
     BlobPrefix: 'style-guide'
+    AdditionalArgumentsForBlobCopy: '--log-level=DEBUG'
