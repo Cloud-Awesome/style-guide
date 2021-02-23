@@ -23,5 +23,3 @@ steps:
     storage: 'cloudawesomexyz'
     ContainerName: '$web'
     BlobPrefix: 'cds-core'
-
-
