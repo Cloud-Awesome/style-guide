@@ -18,7 +18,7 @@ steps:
 - task: PublishBuildArtifacts@1
   displayName: Load to artifacts
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)/docs/_site'
+    PathtoPublish: '$(System.DefaultWorkingDirectory)/docs/_site'
     ArtifactName: 'style-guide-drop'
     publishLocation: 'Container'
 
