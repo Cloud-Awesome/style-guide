@@ -1,0 +1,4 @@
+- name: Intro
+  href: power-portal/intro.md
+- name: Record Naming Conventions
+  href: power-portal/config-naming-conventions.md
