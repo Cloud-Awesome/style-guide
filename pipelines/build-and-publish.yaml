@@ -12,11 +12,12 @@ pool:
 steps:
 
 - task: DocFxTask@0
-  displayName: Build documentation
+  displayName: Build Documentation
   inputs:
     solution: 'docs'
 
 - task: AzureFileCopy@4
+  displayName: Publish to Azure Blob
   inputs:
     SourcePath: 'docs/_site/*'
     azureSubscription: 'Azure.CloudAwesomeXyz.Blob'
