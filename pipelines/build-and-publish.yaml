@@ -1,0 +1,27 @@
+﻿trigger:
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - docs/*
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+
+- task: DocFxTask@0
+  inputs:
+    solution: 'docs'
+
+- task: AzureFileCopy@4
+  inputs:
+    SourcePath: 'docs/_site'
+    azureSubscription: '$(Azure.Subscription)'
+    Destination: 'AzureBlob'
+    storage: 'cloudawesomexyz'
+    ContainerName: '$web'
+    BlobPrefix: 'cds-core'
+
+
