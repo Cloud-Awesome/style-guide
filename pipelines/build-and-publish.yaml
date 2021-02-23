@@ -24,7 +24,7 @@ steps:
 
 - task: AzureFileCopy@4
   inputs:
-    SourcePath: 'docs/_site'
+    SourcePath: 'docs/_site/*'
     azureSubscription: 'Azure.CloudAwesomeXyz.Blob'
     Destination: 'AzureBlob'
     storage: 'cloudawesomexyz'
