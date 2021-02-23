@@ -8,7 +8,7 @@
   href: power-platform/
 
 - name: Power portal
-  href: power-portal/
+  href: power-portal/intro.md
   items:
     - name: Intro
       href: power-portal/intro.md
