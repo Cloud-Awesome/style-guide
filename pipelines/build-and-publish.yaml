@@ -7,7 +7,7 @@ trigger:
       - docs/*
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
 steps:
 
