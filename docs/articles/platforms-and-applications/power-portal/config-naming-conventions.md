@@ -1,12 +1,13 @@
 # Naming conventions
 
-Just initial ideas so that there is some consistency. Very much open to change as they are road tested
+> [!NOTE]
+> Just initial ideas so that there is some consistency. Very much open to change as they are road tested
+
+With the possible exception of Web Roles, assume PascalCase without spaces for all.
 
 ## Web pages
 
 > {TopLevelArea}/{PageSubject}
-
-Pascal Case (without spaces)
 
 e.g. 
 - BulkyWaste/StartHere
@@ -22,8 +23,6 @@ e.g.
 or
 
 > {Framework}/{Definition}
-
-Pascal Case (without spaces)
 
 e.g.
 - FullPageText
@@ -53,8 +52,6 @@ When page-specific templates are required, it is often a sign that general use t
 or
 
 > {Framework}/{Definition}
-
-Pascal Case (without spaces)
 
 e.g.
 - FullPageText
