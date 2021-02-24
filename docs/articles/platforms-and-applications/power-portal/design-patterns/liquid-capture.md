@@ -1,0 +1,3 @@
+# Liquid 'capture' keyword 
+
+- to create a paragraph etc...

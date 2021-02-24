@@ -14,6 +14,8 @@
       href: power-portal/intro.md
     - name: Record Naming Conventions
       href: power-portal/config-naming-conventions.md
+    - name: Design patterns
+      href: power-portal/design-patterns.md
 
 - name: Power BI
   href: power-bi/

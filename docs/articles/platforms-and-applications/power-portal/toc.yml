@@ -1,4 +1,33 @@
 - name: Intro
-  href: power-portal/intro.md
+  href: intro.md
 - name: Record Naming Conventions
-  href: power-portal/config-naming-conventions.md
+  href: config-naming-conventions.md
+- name: Patterns
+  href: design-patterns.md
+  items:
+    - name: Text only entity form
+      href: design-patterns/text-only-entity-form.md
+    - name: Check your answers
+      href: design-patterns/check-your-answers.md
+    - name: Task list
+      href: design-patterns/task-list.md
+    - name: Sidebar
+      href: design-patterns/sidebar.md
+    - name: Insert validators
+      href: design-patterns/insert-validators.md
+    - name: Conditional entity forms
+      href: design-patterns/conditional-entity-forms.md
+    - name: Conditional content snippets
+      href: design-patterns/conditional-content-snippets.md
+    - name: Liquid 'capture'
+      href: design-patterns/liquid-capture.md
+    - name: Sign in patterns
+      href: design-patterns/sign-in-patterns.md
+    - name: Liquid vs. javascript
+      href: design-patterns/liquid-vs-javascript.md
+    - name: Early processing of data entry
+      href: design-patterns/early-data-processing.md
+    - name: Location of copy/text
+      href: design-patterns/location-of-copy.md
+    - name: Convention based URL parameters
+      href: design-patterns/convention-based-url-parameters.md
